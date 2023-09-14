@@ -25,7 +25,7 @@ app.set('views', `views`);
 app.set('view engine', 'hbs');
 
 mongoose.set('strictQuery', false);
-const mongoUri = 'mongodb+srv://milan:milan@cluster0.mmmeqva.mongodb.net/';
+const mongoUri = 'mongodb+srv://admin:admin@dnd.wyz5lnu.mongodb.net/';
 mongoose.connect(
   mongoUri,
   {
